@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ch">
+    <head>
+        <meta charset="utf-8">
+        <title>testpage</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <h1>本页面使用外部样式表</h1><hr>
+        <h1 class="list">colored by class</h1>
+        <p style="color:red;background-color:#3399CC;">colored by style attribute(style属性)（内联样式）</p>
+        <h2 id="a">this scentence is <strong>colored by id a</strong></h2>
+        <hr>
+        <ol type="A" start="1" class="ol">
+            <a href="./a/index.html"><h2 style="color:white;background-color:#3399CC;"> <li>跳转至a.html 注意style属性不能加给a href;前面的序号A的颜色被
+            h2里设置的style属性值覆盖</li></h2></a>
+            <li id="b">使用id b,id b里未设置字体颜色，故字体颜色继承class ol</li>
+            <li>这句话颜色来源于class ol</li>
+            <li>d</li>
+        </ol><hr>
+        <ul>
+            <li>这句话是li元素包起来的，使用了后代选择符ul li</li>
+            <li>f</li>
+            <h3>这句话为无序列表中加入的h3，一样可以通过后代选择符ul h3来设置颜色</h3>
+            <li>test</li>
+        </ul>
+        <dl>
+            <h2>dt外h2内的文本<dt>h2包在dt外</dt></h2>
+            <dd>1234567890</dd>
+            <hr>
+            <dt>dt内h2外的文本<h2>h2包在dt内</h2></dt>
+            <dd>abcdefghij</dd>
+        </dl>
+        <hr>
+         <h3>将图片配置成超链接，点击下面图片跳转到index.html</h3>
+         <a href="./index.html"><img src="./pic/1.jpg" height="80" width="80" alt="点击跳转原图"></a><hr>
+    <main>
+        <p>colored by descendant selector: main p{color:#XXXXXX;}</p>
+        <ul><p>colored by descendant selector: main ul p{color:#XXXXXX;}</p></ul>
+        <h3>colored by descendant selector: main h3{color:#XXXXXX;}</h3>
+    </main>
+    
+    </body>
+
+</html>

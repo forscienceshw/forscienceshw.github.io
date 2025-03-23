@@ -1,0 +1,17 @@
+body{
+background-color:#99cccc;
+background-image:url(../pic/back3.png);background-repeat:repeat-y;background-position:right;
+background: url(../pic/back2.png) repeat-y left,url(../pic/back3.png) no-repeat right;
+}
+body h1{
+background-color:#99cccc;color:#D24B8C;
+background-image:url(../pic/back3.png);background-repeat:no-repeat;background-position:center;
+}
+body h3{
+background-color:#D2B48C;color:#F5F5DC;
+background-image:url(../pic/back4.png);background-repeat:no-repeat;background-position:center;
+}
+body p{
+background-color:#D24B8C;color:#F5DCDC;
+background-image:url(../pic/drawing.png);background-repeat:no-repeat;background-position:center;
+}
