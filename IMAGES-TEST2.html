@@ -3,7 +3,8 @@
          <head>
              <meta charset="utf-8">
              <title>IMAGES TEST1</title>
-            <link rel="stylesheet" href="./css/img.css">
+             <link rel="stylesheet" href="./css/img.css">
+             <link rel="icon" href="./pic/favicon.ico" type="image/x-iconh777yh">
          </head>
          <body>
          <h1>images file here</h1><hr>
@@ -11,6 +12,17 @@
          <p>img元素的长宽属性值若小于图片原图大小，则按配置的属性值缩略、拉伸</p><hr>
          <h3>将图片配置成超链接，点击下面图片跳转到index.html</h3>
          <a href="./index.html"><img src="./pic/1.jpg" height="80" width="80" alt="点击跳转原图"></a>
-
+         <ul>
+            <li>test</li>
+            <li>用图片代替列表符号</li>
+            <li>测试</li>
+         </ul>
+         <map name="a" id="a">
+             <area href="./index.html" alt="index.html" shape="rect" coords="30,100,156,300" title="跳转至index">
+             <area href="./practice1.html" alt="practice1.html" shape="rect" coords="169,100,303,300" title="跳转至practice1">
+             <area href="./IMAGES-TEST1.html" alt="image-test1.html" shape="rect" coords="361,100,476,300" title="跳转至image-test1">
+             <area href="./a/index.html" alt="a.html" shape="rect" coords="484,100,600,300" title="跳转至/a/.index">
+         </map>
+         <img src="./pic/char.png" usemap="#a" alt="汉字" width="626" height="391">
          </body>
      </html>
