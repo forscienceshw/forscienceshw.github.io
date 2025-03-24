@@ -15,3 +15,8 @@ body p{
 background-color:#D24B8C;color:#F5DCDC;
 background-image:url(../pic/drawing.png);background-repeat:no-repeat;background-position:center;
 }
+ul{
+font-size:200%;
+text-align:justifyl.;
+list-style-image:url(../pic/favicon.ico);
+}
